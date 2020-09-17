@@ -1,0 +1,12 @@
+from urllib.request import Request, urlopen
+
+#request = Request('http://192.168.1.106/fsnNWpuUjlr8F-KfCGLgMPM3-xytL3Q7/update/V1?value=1')
+
+#response_body = urlopen(request).read()
+
+#print(response_body)
+
+request1 = Request('http://192.168.1.106/fsnNWpuUjlr8F-KfCGLgMPM3-xytL3Q7/get/V1')
+
+response_body = urlopen(request1).read()
+print(response_body)
