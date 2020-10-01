@@ -1,10 +1,10 @@
 a = []
 while True:
     try:
-        e = float(input())
-        a.append(e)
+        #e = float(input())
+        a.append(float(input()))
     except:
-        break;
+        break
 print(len(a))
 
 
