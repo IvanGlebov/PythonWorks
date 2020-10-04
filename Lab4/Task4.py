@@ -25,11 +25,13 @@ print("        /   \       ")
 print(" x5,y5 /     \ x2,y2")
 print("       \     /      ")
 print("  x4,y4 \___/  x3,y3")
-x1y1 = input('enter x1,y1')
-x2y2 = input('enter x2,y2')
-x3y3 = input('enter x3,y3')
-x4y4 = input('enter x4,y4')
-x5y5 = input('enter x5,y5')
+print("Entered coordinates should be separated by ','")
+print("Example : 1,3 ")
+x1y1 = input('Enter x1,y1')
+x2y2 = input('Enter x2,y2')
+x3y3 = input('Enter x3,y3')
+x4y4 = input('Enter x4,y4')
+x5y5 = input('Enter x5,y5')
 area = findarea(findlen(x1y1, x3y3),
                 findlen(x3y3, x4y4),
                 findlen(x4y4, x1y1)) + \
