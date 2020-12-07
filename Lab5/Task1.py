@@ -54,7 +54,7 @@ class Country:
     
 
     def __str__(self):
-        return "Name : " + str(self.name) + "  Population : " + str(self.population)
+        return "Name : " + str(self.name) + ", Population : " + str(self.population)
 
 
 
