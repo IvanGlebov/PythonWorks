@@ -41,11 +41,11 @@ class MyQueue:
         self.__init__()
 
 
-    def show_node(self)->str:
-        if self.head != None:
-            return self.head.data
-        else:
-            return None
+    # def show_node(self)->str:
+    #     if self.head != None:
+    #         return self.head.data
+    #     else:
+    #         return None
 
 class Country:
     def __init__(self, name, population):
